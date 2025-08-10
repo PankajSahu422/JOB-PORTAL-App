@@ -1,4 +1,5 @@
 import express from "express";
+import isAuthenticated from "../middleware/isAuthenticated.js";
 import { applyJob, getApplicants, getAppliedJobs, updateStatus } from "../controllers/application.controller.js";
 import isAuthenticated from "../middleware/isAuthenticated.js";
  

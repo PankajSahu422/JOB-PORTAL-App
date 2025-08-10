@@ -1,4 +1,5 @@
 import { Job } from "../models/job.model.js";
+
 // admin post karega job
 export const postJob = async (req, res) => {
   try {
