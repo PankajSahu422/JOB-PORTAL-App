@@ -1,4 +1,4 @@
-import { Popover, PopoverTrigger } from '@radix-ui/react-popover'
+
 import { Link } from 'react-router-dom'
 import React from 'react'
 
@@ -15,17 +15,8 @@ const Navbar = () => {
             <li>Jobs</li>
             <li>Browse</li>
           </ul>
-cd
-          {/* <Popover>
-            <PopoverTrigger asChild>
-              <Avatar>
-                <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
-              </Avatar>
-            </PopoverTrigger>
-            <PopoverContent>
-              <h1>hello</h1>
-            </PopoverContent>
-          </Popover> */}
+
+          
         </div>
       </div>
     </div>
